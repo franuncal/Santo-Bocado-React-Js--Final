@@ -19,7 +19,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 13vh;
+  height: 15vh;
   background-color: #1b1b1b;
 }
 
@@ -150,6 +150,7 @@
   height: auto;
   margin-top: 1rem;
   padding: 1rem;
+  cursor: pointer;
 }
 
 button.vaciar {
