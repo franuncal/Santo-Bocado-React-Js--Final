@@ -17,10 +17,20 @@
 }
 
 .navbar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/public/sb-logo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  /* background-image: url(/public/sb-logo.png);
   display: flex;
   justify-content: space-between;
   height: 15vh;
-  background-color: #1b1b1b;
+  background-color: #1b1b1b; */
 }
 
 .logo {
@@ -41,7 +51,7 @@
 
 .menu-link {
   font-size: 20px;
-  justify-self: end;
+  justify-content: center;
   margin-right: 20px;
   color: var(--clr-main-light);
   margin-top: 3px;
